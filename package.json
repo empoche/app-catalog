@@ -12,7 +12,7 @@
     "application-database",
     "app-catalog",
     "software-catalog",
-    "software-database",git
+    "software-database",
     "executable-directory"
   ],
   "main": "index.js",
