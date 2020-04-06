@@ -1,5 +1,5 @@
 {
-  "name": "app-catalog",
+  "name": "software-catalog",
   "version": "0.1.0",
   "author": "Yves Hoppe <contact@empoche.com> (https://empoche.com)",
   "description": "Catalog for identifying applications on their executable or window name.",
