@@ -1,6 +1,6 @@
 ## App-Catalog
 
-Collection of process and application information for Linux, MacOS and Unix.
+Collection of process and application information for Linux, MacOS and Windows.
 
 Identify applications and categories based on their executable name.
 
@@ -55,7 +55,7 @@ const chrome = items.find(i => i.windowClasses.includes('chrome.exe'))
 Item description:
 
 > The windowClasses ([]) property contains the executable names. As they are not always
-> unique (e.g. shellexperiencehost.exe is used for a lot of windows 10 applications)
+> unique (e.g. shellexperiencehost.exe is used for a lot of Windows 10 applications)
 > for some applications windowNames are needed.
 
 ## Contributing
