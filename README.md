@@ -1,4 +1,4 @@
-## Software-Catalog
+## App-Catalog
 
 Collection of process and application information for Linux, MacOS and Windows.
 
@@ -27,20 +27,20 @@ This is a Node.js module available through the npm registry.
 With npm:
 
 ```bash
-npm install software-catalog
+npm install appcatalog
 ```
 
 With yarn:
 
 ```bash
-yarn add software-catalog
+yarn add appcatalog
 ```
 
 #### Usage
 
 ```javascript
-// Contains all categories and items
-const apps = require('software-catalog');
+// Get all categories and items
+const apps = require('appcatalog');
 
 // Browser category
 const browser = apps.find(c => c.category === 'browser');
