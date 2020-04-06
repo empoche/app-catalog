@@ -84,4 +84,12 @@ describe('App Catalog tests', () => {
 
     undefinedFilter.length.should.equal(0);
   });
+
+  it('Print duplicate app titles', () => {
+    const filteredTitles = allTitles.filter((item, index) =>
+      allTitles.indexOf(item) !== index);
+
+    // There are actually some reasons for duplicate app titles (multi-lang)
+    console.log('Duplicate titles', filteredTitles);
+  });
 });
