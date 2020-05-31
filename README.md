@@ -1,6 +1,6 @@
 ## Software-Catalog
 
-Collection of process and application information for Linux, MacOS and Windows.
+Collection of process and application information for Linux, MacOS and Windows. Used in [Empoche](https://empoche.com)'s automatic time tracking of PC applications.
 
 Identify applications and categories based on their executable name.
 
